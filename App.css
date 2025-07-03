@@ -1,0 +1,69 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(240, 180, 180);
+   
+}
+ .middle ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 10px;
+}
+ .title{
+    font-size: 1rem;
+}
+ .left{
+    flex: 2;
+}
+ .middle{
+    flex: 4;
+}
+ .search{
+    flex: 2;
+}
+ .right{
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+ .bannerbox img{
+    height: 250px;
+    width: 1250px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ .collectiobox img{
+ height: 200px;
+ width: 220px;
+ gap: 10px;
+ margin-left: 20px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+ .womencoll img{
+   height: 200px;
+   width: 220px;
+   gap:10px;
+   margin-left: 30px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+ .womencoll img{
+   gap: 10px;
+ }
+.collectionsection{
+   gap: 10px;
+}
+.sear{
+   height: 36px;
+   border-radius: 10px;
+}
